@@ -1,0 +1,199 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Hind:wght@300;400;500;600;700&family=Noto+Sans+Bengali:wght@100;400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+      font-family: 'Poppins', sans-serif;
+}
+
+/* header section starts */
+@keyframes name{
+      0%{
+            background: red;
+      }
+      to{
+            left: 500px;
+      }
+}
+
+.header_section {
+      width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: #000000e0;
+      border-radius: 24px;
+      margin-top: 40px;
+      animation-duration: 3s;
+      animation-name: name;
+}
+.header_content{
+      width: 50%;
+      color: white;
+      padding: 30px 0;
+}
+.header_image img{
+      width: 50%;
+}
+.header_content h1 {
+      font-size: 60px;
+      margin: 0px;
+      line-height: 59px;
+}
+.header_image img {
+      width: 120%;
+}
+.header_content button {
+      background: red !important;
+      color: white;
+      padding: 10px 20px;
+      font-weight: bold;
+      font-size: 19px;
+      border: none;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+}
+.header_content button:hover i {
+      margin-left: 10px;
+      transition: 0.1s;
+}
+/* header section ends */
+
+
+/* section starts */
+.blog_item{
+      width: 1100px;
+      margin: auto;
+      margin-top:100px
+}
+.blog_button{
+      width: 240px;
+      border: 1px solid black;
+      overflow: hidden;
+      height: 100%;
+      padding: 20px;
+      background: #000000e0;
+
+}
+.blog_button button{
+      display: block;
+      width: 100%;
+      margin: 15px 0;
+      padding: 10px;
+      background: white;
+      color: black;
+      border-radius: 11px;
+      font-weight: bold;
+      font-size: 20px;
+      cursor: pointer;
+}
+.blog_color{
+      background-color: red !important;
+      color: white !important;
+}
+.blog_content img{
+      width: 100%;
+}
+.blog_item{
+      display:flex;
+      justify-content: space-between;
+}
+.blog_content{
+      width: 240px;
+      margin-right: 27px;
+      border: 1px solid #ddd;
+}
+.hello{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-row-gap: 40px;
+}
+.blog_inner_content {
+      padding: 12px;
+}
+.blog_inner_content button {
+      background: white;
+      border: 1px solid black;
+      padding: 4px 10px;
+      border-radius: 3px;
+}
+.inner_span {
+      margin-left: 34px;
+}
+/* section ends */
+
+
+/* footer section starts */
+.footer{
+      width: 100%;
+      background: #ddd;
+      margin-top: 100px;
+}
+
+.footers{
+      text-align: center;
+      width: 1100px;
+      border-bottom: 1px solid rgb(165, 163, 163);
+      margin: auto;
+}
+.footer_section{
+      width: 1100px;
+      text-align: center;
+      margin: auto;
+}
+.footer_section nav ul{
+      display: flex;
+      justify-content: center;
+}
+.footer_section nav ul li{
+      list-style-type: none;
+      padding: 28px;
+}
+.footer_section nav ul li a{
+     text-decoration: none;
+            color: black;
+}
+.footers h1 {
+      padding: 34px;
+      margin: 8px;
+      color: #000000e3;
+}
+.footer_icon{
+      width: 1100px;
+      text-align: center;
+      margin: auto;
+}
+.footer_icon i {
+      padding: 9px;
+      font-size: 30px;
+      margin-bottom: 20px;
+}
+/* footer section ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
