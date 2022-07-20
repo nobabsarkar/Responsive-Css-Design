@@ -11,8 +11,8 @@ body{
       0%{
             background: red;
       }
-      to{
-            left: 500px;
+      100%{
+            background-color: yellow;
       }
 }
 
@@ -126,6 +126,22 @@ body{
 .inner_span {
       margin-left: 34px;
 }
+.view {
+      width: 1100px;
+      margin: auto;
+      text-align: center;
+      margin-top: 43px;
+      display: none;
+}
+.view button {
+      padding: 10px 30px;
+      background: red;
+      color: white;
+      border: none;
+      font-weight: bold;
+      font-size: 18px;
+      border-radius: 5px;
+}
 /* section ends */
 
 
@@ -134,18 +150,17 @@ body{
       width: 100%;
       background: #ddd;
       margin-top: 100px;
-}
-
-.footers{
+      margin: auto;
       text-align: center;
-      width: 1100px;
+}
+.footer_section {
+      width: 100%;
+      text-align: center;
+      margin: auto;
+}
+.footer_section h1{
       border-bottom: 1px solid rgb(165, 163, 163);
-      margin: auto;
-}
-.footer_section{
-      width: 1100px;
-      text-align: center;
-      margin: auto;
+      padding: 50px;
 }
 .footer_section nav ul{
       display: flex;
@@ -165,7 +180,6 @@ body{
       color: #000000e3;
 }
 .footer_icon{
-      width: 1100px;
       text-align: center;
       margin: auto;
 }
@@ -177,11 +191,79 @@ body{
 /* footer section ends */
 
 
+@media screen and (max-width:768px){
+      .hello{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            width: 70%;
+      }
+      .view{
+            display: block;
+            margin: auto;
+            margin-top: 60px;
+      }
+      .blog_button button{
+            display: inline;
+      }
+      .footer{
+            width: 150%;
+      }
+}
+
+
+@media screen and (max-width:576px){
+      .header_section{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+      }
+      .header_content{
+            text-align: center;
+            margin: auto;
+      }
+      .header_content h1{
+            font-size: 50px;
+      }
+      .header_image img {
+            width: 50%;
+            margin-left: 30%;
+      }
+      .blog_item{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            /* margin-left: 75%; */
+      }
+      .hello{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            /* margin-left: 42%; */
+      }
+      .blog_button{
+            background-color: none;
+      }
+      .blog_button {
+            background: none;
+            border: none;
+            margin-top: -79px;
+            margin-left: 23%;
+      }
+      .view{
+            display: none;
+      }
+      .footer_section nav ul{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+      }
+      .blog_content{
+            margin: auto;
+      }
+      .footer{
+            width: 200%;
+      }
 
 
 
 
-
+}
 
 
 
