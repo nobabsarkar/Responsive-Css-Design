@@ -93,6 +93,10 @@ body{
       font-size: 20px;
       cursor: pointer;
 }
+.blog_button button a {
+      text-decoration: none;
+      color: black;
+}
 .blog_color{
       background-color: red !important;
       color: white !important;
@@ -259,16 +263,20 @@ body{
       .footer{
             width: 200%;
       }
-
-
-
-
 }
 
 
 
-
-
+.flag {
+      display: flex;
+      align-items: center;
+      padding: 18px;
+}
+.upcoming_page {
+      width: 240px;
+      border: 1px solid #ddd;
+      height: 223px;
+}
 
 
 
